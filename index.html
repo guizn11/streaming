@@ -12,6 +12,27 @@
     <input type="password"placeholder="senha">
     <input type="submit"onclik="login"();returnfalse>
   </form>
-    </h3>  
-</body>
-</html>
+      
+</form>
+
+<script>
+
+
+     function logar(){
+     
+
+     var login = document.getElementById('login').value;
+     var senha = document.getElementById('senha').value;
+
+
+     if(login == "admin" && senha == "admin"){
+      alert('Sucesso');
+      location.href = "home.html";
+     }else{
+        alert('Usuario ou senha incorretos ');
+
+
+     }
+
+  
+    </script>
